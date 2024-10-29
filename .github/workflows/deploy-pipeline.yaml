@@ -60,7 +60,7 @@ jobs:
           draft: false
           prerelease: false
       - name: downlord artifacts
-        uses: actions/download-artifacts@v2
+        uses: actions/download-artifact@v2
         with:
           name: zipped-bundle
       - name: upload release asset
